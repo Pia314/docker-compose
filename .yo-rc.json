@@ -1,0 +1,15 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "CC_microservices_gateway",
+      "CC_microservices_invoice",
+      "CC_microservices_notification"
+    ],
+    "clusteredDbApps": ["CC_microservices_notification"],
+    "directoryPath": "../",
+    "gatewayType": "SpringCloudGateway",
+    "jwtSecretKey": "YWUxYzQ1ZTczZjA3YmQ1MGYwNmE3ODJmNzE3YTI1NzI5ZmI1ODliMGQxMWEwZmViZDZkMzljY2M0N2EzMzAwYTk1YTRhMzc0YmUxZGU0OWFmOWMzNDRlODc3YTgyZTFiOWEwMA==",
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "eureka"
+  }
+}
